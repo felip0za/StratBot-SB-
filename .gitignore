@@ -1,0 +1,25 @@
+# Artefatos de build e dependências
+/_build/
+/deps/
+/doc/
+/.fetch
+
+# Arquivos de ambiente (nunca suba tokens!)
+.env
+*.env
+
+# Arquivo de persistência local (não suba dados de usuários)
+lembretes.json
+*.json
+
+# Cobertura de testes
+/cover/
+
+# Releases
+/rel/
+
+# Editor
+.elixir_ls/
+.idea/
+*.iml
+.DS_Store
